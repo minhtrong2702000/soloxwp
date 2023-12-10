@@ -1,0 +1,352 @@
+2023-11-20T09:42:33+00:00 CRITICAL syntax error, unexpected identifier "tieude_counternumber", expecting "," or ";" in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome-child\functions.php on line 311
+
+2023-11-20T10:18:25+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome-child\functions.php on line 261
+
+2023-11-20T10:18:25+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome-child\functions.php on line 261
+
+2023-11-20T10:19:33+00:00 CRITICAL Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php:33
+Stack trace:
+#0 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php(24): UxBuilder\Options\Options->create('', Array)
+#1 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Custom\GroupOption.php(12): UxBuilder\Options\Options->__construct(Array, Object(UxBuilder\Options\Custom\GroupOption))
+#2 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php(33): UxBuilder\Options\Custom\GroupOption->__construct('text_align', Array, Object(UxBuilder\Elements\ElementOptions))
+#3 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php(24): UxBuilder\Options\Options->create('text_align', Array)
+#4 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(106): UxBuilder\Options\Options->__construct(Array)
+#5 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(82): UxBuilder\Post\PostArray->get_options('tieude_countern...', Array)
+#6 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(31): UxBuilder\Post\PostArray->UxBuilder\Post\{closure}(Array, 0)
+#7 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#8 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#9 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#10 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#11 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(83): ux_builder_content_array_walk(Array, Object(Closure))
+#12 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(17): UxBuilder\Post\PostArray->create_array()
+#13 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\Post.php(70): UxBuilder\Post\PostArray->__construct(Object(WP_Post))
+#14 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(129): UxBuilder\Post\Post->to_array()
+#15 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(47): ux_builder_editor_data()
+#16 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(26): ux_builder_enqueue_editor_assets()
+#17 C:\xampp\htdocs\soloxwp\wp-includes\class-wp-hook.php(324): UxBuilder\Application->{closure}(Object(WP_Screen))
+#18 C:\xampp\htdocs\soloxwp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#19 C:\xampp\htdocs\soloxwp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#20 C:\xampp\htdocs\soloxwp\wp-admin\includes\class-wp-screen.php(424): do_action('current_screen', Object(WP_Screen))
+#21 C:\xampp\htdocs\soloxwp\wp-admin\includes\screen.php(243): WP_Screen->set_current_screen()
+#22 C:\xampp\htdocs\soloxwp\wp-admin\admin.php(212): set_current_screen()
+#23 C:\xampp\htdocs\soloxwp\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#24 {main}
+  thrown in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php on line 33
+
+2023-11-20T10:20:04+00:00 CRITICAL Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php:33
+Stack trace:
+#0 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php(24): UxBuilder\Options\Options->create('', Array)
+#1 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Custom\GroupOption.php(12): UxBuilder\Options\Options->__construct(Array, Object(UxBuilder\Options\Custom\GroupOption))
+#2 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php(33): UxBuilder\Options\Custom\GroupOption->__construct('text_align', Array, Object(UxBuilder\Elements\ElementOptions))
+#3 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php(24): UxBuilder\Options\Options->create('text_align', Array)
+#4 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(106): UxBuilder\Options\Options->__construct(Array)
+#5 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(82): UxBuilder\Post\PostArray->get_options('tieude_countern...', Array)
+#6 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(31): UxBuilder\Post\PostArray->UxBuilder\Post\{closure}(Array, 0)
+#7 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#8 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#9 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#10 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#11 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(83): ux_builder_content_array_walk(Array, Object(Closure))
+#12 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(17): UxBuilder\Post\PostArray->create_array()
+#13 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\Post.php(70): UxBuilder\Post\PostArray->__construct(Object(WP_Post))
+#14 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(129): UxBuilder\Post\Post->to_array()
+#15 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(47): ux_builder_editor_data()
+#16 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(26): ux_builder_enqueue_editor_assets()
+#17 C:\xampp\htdocs\soloxwp\wp-includes\class-wp-hook.php(324): UxBuilder\Application->{closure}(Object(WP_Screen))
+#18 C:\xampp\htdocs\soloxwp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#19 C:\xampp\htdocs\soloxwp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#20 C:\xampp\htdocs\soloxwp\wp-admin\includes\class-wp-screen.php(424): do_action('current_screen', Object(WP_Screen))
+#21 C:\xampp\htdocs\soloxwp\wp-admin\includes\screen.php(243): WP_Screen->set_current_screen()
+#22 C:\xampp\htdocs\soloxwp\wp-admin\admin.php(212): set_current_screen()
+#23 C:\xampp\htdocs\soloxwp\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#24 {main}
+  thrown in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php on line 33
+
+2023-11-20T10:20:23+00:00 CRITICAL Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php:33
+Stack trace:
+#0 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php(24): UxBuilder\Options\Options->create('', Array)
+#1 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Custom\GroupOption.php(12): UxBuilder\Options\Options->__construct(Array, Object(UxBuilder\Options\Custom\GroupOption))
+#2 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php(33): UxBuilder\Options\Custom\GroupOption->__construct('text_align', Array, Object(UxBuilder\Elements\ElementOptions))
+#3 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php(24): UxBuilder\Options\Options->create('text_align', Array)
+#4 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(106): UxBuilder\Options\Options->__construct(Array)
+#5 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(82): UxBuilder\Post\PostArray->get_options('tieude_countern...', Array)
+#6 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(31): UxBuilder\Post\PostArray->UxBuilder\Post\{closure}(Array, 0)
+#7 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#8 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#9 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#10 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#11 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(83): ux_builder_content_array_walk(Array, Object(Closure))
+#12 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(17): UxBuilder\Post\PostArray->create_array()
+#13 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\Post.php(70): UxBuilder\Post\PostArray->__construct(Object(WP_Post))
+#14 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(129): UxBuilder\Post\Post->to_array()
+#15 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(47): ux_builder_editor_data()
+#16 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(26): ux_builder_enqueue_editor_assets()
+#17 C:\xampp\htdocs\soloxwp\wp-includes\class-wp-hook.php(324): UxBuilder\Application->{closure}(Object(WP_Screen))
+#18 C:\xampp\htdocs\soloxwp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#19 C:\xampp\htdocs\soloxwp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#20 C:\xampp\htdocs\soloxwp\wp-admin\includes\class-wp-screen.php(424): do_action('current_screen', Object(WP_Screen))
+#21 C:\xampp\htdocs\soloxwp\wp-admin\includes\screen.php(243): WP_Screen->set_current_screen()
+#22 C:\xampp\htdocs\soloxwp\wp-admin\admin.php(212): set_current_screen()
+#23 C:\xampp\htdocs\soloxwp\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#24 {main}
+  thrown in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php on line 33
+
+2023-11-20T10:24:11+00:00 CRITICAL Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php:33
+Stack trace:
+#0 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php(24): UxBuilder\Options\Options->create('text_align', Array)
+#1 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(106): UxBuilder\Options\Options->__construct(Array)
+#2 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(82): UxBuilder\Post\PostArray->get_options('tieude_countern...', Array)
+#3 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(31): UxBuilder\Post\PostArray->UxBuilder\Post\{closure}(Array, 0)
+#4 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#5 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#6 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#7 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#8 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(83): ux_builder_content_array_walk(Array, Object(Closure))
+#9 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(17): UxBuilder\Post\PostArray->create_array()
+#10 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\Post.php(70): UxBuilder\Post\PostArray->__construct(Object(WP_Post))
+#11 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(129): UxBuilder\Post\Post->to_array()
+#12 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(47): ux_builder_editor_data()
+#13 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(26): ux_builder_enqueue_editor_assets()
+#14 C:\xampp\htdocs\soloxwp\wp-includes\class-wp-hook.php(324): UxBuilder\Application->{closure}(Object(WP_Screen))
+#15 C:\xampp\htdocs\soloxwp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#16 C:\xampp\htdocs\soloxwp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#17 C:\xampp\htdocs\soloxwp\wp-admin\includes\class-wp-screen.php(424): do_action('current_screen', Object(WP_Screen))
+#18 C:\xampp\htdocs\soloxwp\wp-admin\includes\screen.php(243): WP_Screen->set_current_screen()
+#19 C:\xampp\htdocs\soloxwp\wp-admin\admin.php(212): set_current_screen()
+#20 C:\xampp\htdocs\soloxwp\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#21 {main}
+  thrown in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php on line 33
+
+2023-11-20T10:26:59+00:00 CRITICAL Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php:33
+Stack trace:
+#0 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php(24): UxBuilder\Options\Options->create('radio', Array)
+#1 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(106): UxBuilder\Options\Options->__construct(Array)
+#2 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(82): UxBuilder\Post\PostArray->get_options('tieude_countern...', Array)
+#3 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(31): UxBuilder\Post\PostArray->UxBuilder\Post\{closure}(Array, 0)
+#4 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#5 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#6 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#7 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#8 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(83): ux_builder_content_array_walk(Array, Object(Closure))
+#9 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(17): UxBuilder\Post\PostArray->create_array()
+#10 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\Post.php(70): UxBuilder\Post\PostArray->__construct(Object(WP_Post))
+#11 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(129): UxBuilder\Post\Post->to_array()
+#12 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(47): ux_builder_editor_data()
+#13 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(26): ux_builder_enqueue_editor_assets()
+#14 C:\xampp\htdocs\soloxwp\wp-includes\class-wp-hook.php(324): UxBuilder\Application->{closure}(Object(WP_Screen))
+#15 C:\xampp\htdocs\soloxwp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#16 C:\xampp\htdocs\soloxwp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#17 C:\xampp\htdocs\soloxwp\wp-admin\includes\class-wp-screen.php(424): do_action('current_screen', Object(WP_Screen))
+#18 C:\xampp\htdocs\soloxwp\wp-admin\includes\screen.php(243): WP_Screen->set_current_screen()
+#19 C:\xampp\htdocs\soloxwp\wp-admin\admin.php(212): set_current_screen()
+#20 C:\xampp\htdocs\soloxwp\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#21 {main}
+  thrown in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php on line 33
+
+2023-11-20T10:28:31+00:00 CRITICAL Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php:33
+Stack trace:
+#0 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php(24): UxBuilder\Options\Options->create('radio', Array)
+#1 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(106): UxBuilder\Options\Options->__construct(Array)
+#2 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(82): UxBuilder\Post\PostArray->get_options('tieude_countern...', Array)
+#3 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(31): UxBuilder\Post\PostArray->UxBuilder\Post\{closure}(Array, 0)
+#4 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#5 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#6 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#7 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#8 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(83): ux_builder_content_array_walk(Array, Object(Closure))
+#9 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(17): UxBuilder\Post\PostArray->create_array()
+#10 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\Post.php(70): UxBuilder\Post\PostArray->__construct(Object(WP_Post))
+#11 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(129): UxBuilder\Post\Post->to_array()
+#12 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(47): ux_builder_editor_data()
+#13 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(26): ux_builder_enqueue_editor_assets()
+#14 C:\xampp\htdocs\soloxwp\wp-includes\class-wp-hook.php(324): UxBuilder\Application->{closure}(Object(WP_Screen))
+#15 C:\xampp\htdocs\soloxwp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#16 C:\xampp\htdocs\soloxwp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#17 C:\xampp\htdocs\soloxwp\wp-admin\includes\class-wp-screen.php(424): do_action('current_screen', Object(WP_Screen))
+#18 C:\xampp\htdocs\soloxwp\wp-admin\includes\screen.php(243): WP_Screen->set_current_screen()
+#19 C:\xampp\htdocs\soloxwp\wp-admin\admin.php(212): set_current_screen()
+#20 C:\xampp\htdocs\soloxwp\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#21 {main}
+  thrown in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php on line 33
+
+2023-11-20T10:29:44+00:00 CRITICAL Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php:33
+Stack trace:
+#0 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php(24): UxBuilder\Options\Options->create('options', Array)
+#1 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(106): UxBuilder\Options\Options->__construct(Array)
+#2 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(82): UxBuilder\Post\PostArray->get_options('tieude_countern...', Array)
+#3 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(31): UxBuilder\Post\PostArray->UxBuilder\Post\{closure}(Array, 0)
+#4 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#5 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#6 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#7 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#8 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(83): ux_builder_content_array_walk(Array, Object(Closure))
+#9 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(17): UxBuilder\Post\PostArray->create_array()
+#10 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\Post.php(70): UxBuilder\Post\PostArray->__construct(Object(WP_Post))
+#11 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(129): UxBuilder\Post\Post->to_array()
+#12 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(47): ux_builder_editor_data()
+#13 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(26): ux_builder_enqueue_editor_assets()
+#14 C:\xampp\htdocs\soloxwp\wp-includes\class-wp-hook.php(324): UxBuilder\Application->{closure}(Object(WP_Screen))
+#15 C:\xampp\htdocs\soloxwp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#16 C:\xampp\htdocs\soloxwp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#17 C:\xampp\htdocs\soloxwp\wp-admin\includes\class-wp-screen.php(424): do_action('current_screen', Object(WP_Screen))
+#18 C:\xampp\htdocs\soloxwp\wp-admin\includes\screen.php(243): WP_Screen->set_current_screen()
+#19 C:\xampp\htdocs\soloxwp\wp-admin\admin.php(212): set_current_screen()
+#20 C:\xampp\htdocs\soloxwp\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#21 {main}
+  thrown in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php on line 33
+
+2023-11-20T10:30:39+00:00 CRITICAL Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php:33
+Stack trace:
+#0 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php(24): UxBuilder\Options\Options->create('options', Array)
+#1 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(106): UxBuilder\Options\Options->__construct(Array)
+#2 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(82): UxBuilder\Post\PostArray->get_options('tieude_countern...', Array)
+#3 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(31): UxBuilder\Post\PostArray->UxBuilder\Post\{closure}(Array, 0)
+#4 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#5 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#6 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#7 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#8 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(83): ux_builder_content_array_walk(Array, Object(Closure))
+#9 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(17): UxBuilder\Post\PostArray->create_array()
+#10 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\Post.php(70): UxBuilder\Post\PostArray->__construct(Object(WP_Post))
+#11 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(129): UxBuilder\Post\Post->to_array()
+#12 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(47): ux_builder_editor_data()
+#13 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(26): ux_builder_enqueue_editor_assets()
+#14 C:\xampp\htdocs\soloxwp\wp-includes\class-wp-hook.php(324): UxBuilder\Application->{closure}(Object(WP_Screen))
+#15 C:\xampp\htdocs\soloxwp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#16 C:\xampp\htdocs\soloxwp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#17 C:\xampp\htdocs\soloxwp\wp-admin\includes\class-wp-screen.php(424): do_action('current_screen', Object(WP_Screen))
+#18 C:\xampp\htdocs\soloxwp\wp-admin\includes\screen.php(243): WP_Screen->set_current_screen()
+#19 C:\xampp\htdocs\soloxwp\wp-admin\admin.php(212): set_current_screen()
+#20 C:\xampp\htdocs\soloxwp\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#21 {main}
+  thrown in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php on line 33
+
+2023-11-20T10:45:43+00:00 CRITICAL Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php:33
+Stack trace:
+#0 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php(24): UxBuilder\Options\Options->create('width', Array)
+#1 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(106): UxBuilder\Options\Options->__construct(Array)
+#2 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(82): UxBuilder\Post\PostArray->get_options('tieude_countern...', Array)
+#3 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(31): UxBuilder\Post\PostArray->UxBuilder\Post\{closure}(Array, 0)
+#4 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#5 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#6 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#7 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#8 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#9 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(83): ux_builder_content_array_walk(Array, Object(Closure))
+#10 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(17): UxBuilder\Post\PostArray->create_array()
+#11 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\Post.php(70): UxBuilder\Post\PostArray->__construct(Object(WP_Post))
+#12 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(129): UxBuilder\Post\Post->to_array()
+#13 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(47): ux_builder_editor_data()
+#14 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(26): ux_builder_enqueue_editor_assets()
+#15 C:\xampp\htdocs\soloxwp\wp-includes\class-wp-hook.php(324): UxBuilder\Application->{closure}(Object(WP_Screen))
+#16 C:\xampp\htdocs\soloxwp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#17 C:\xampp\htdocs\soloxwp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\xampp\htdocs\soloxwp\wp-admin\includes\class-wp-screen.php(424): do_action('current_screen', Object(WP_Screen))
+#19 C:\xampp\htdocs\soloxwp\wp-admin\includes\screen.php(243): WP_Screen->set_current_screen()
+#20 C:\xampp\htdocs\soloxwp\wp-admin\admin.php(212): set_current_screen()
+#21 C:\xampp\htdocs\soloxwp\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#22 {main}
+  thrown in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php on line 33
+
+2023-11-20T10:45:44+00:00 CRITICAL Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php:33
+Stack trace:
+#0 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php(24): UxBuilder\Options\Options->create('width', Array)
+#1 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(160): UxBuilder\Options\Options->__construct(Array)
+#2 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(49): UxBuilder\Transformers\ArrayToString->options_to_string(Array, Array)
+#3 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#10 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#11 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#12 C:\xampp\htdocs\soloxwp\wp-includes\class-wp-hook.php(324): UxBuilder\Ajax\PostSaver->save('')
+#13 C:\xampp\htdocs\soloxwp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#14 C:\xampp\htdocs\soloxwp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#15 C:\xampp\htdocs\soloxwp\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#16 {main}
+  thrown in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php on line 33
+
+2023-11-20T10:45:47+00:00 CRITICAL Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php:33
+Stack trace:
+#0 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php(24): UxBuilder\Options\Options->create('width', Array)
+#1 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(106): UxBuilder\Options\Options->__construct(Array)
+#2 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(82): UxBuilder\Post\PostArray->get_options('tieude_countern...', Array)
+#3 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(31): UxBuilder\Post\PostArray->UxBuilder\Post\{closure}(Array, 0)
+#4 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#5 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#6 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#7 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#8 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#9 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(83): ux_builder_content_array_walk(Array, Object(Closure))
+#10 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(17): UxBuilder\Post\PostArray->create_array()
+#11 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\Post.php(70): UxBuilder\Post\PostArray->__construct(Object(WP_Post))
+#12 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(129): UxBuilder\Post\Post->to_array()
+#13 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(47): ux_builder_editor_data()
+#14 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(26): ux_builder_enqueue_editor_assets()
+#15 C:\xampp\htdocs\soloxwp\wp-includes\class-wp-hook.php(324): UxBuilder\Application->{closure}(Object(WP_Screen))
+#16 C:\xampp\htdocs\soloxwp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#17 C:\xampp\htdocs\soloxwp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\xampp\htdocs\soloxwp\wp-admin\includes\class-wp-screen.php(424): do_action('current_screen', Object(WP_Screen))
+#19 C:\xampp\htdocs\soloxwp\wp-admin\includes\screen.php(243): WP_Screen->set_current_screen()
+#20 C:\xampp\htdocs\soloxwp\wp-admin\admin.php(212): set_current_screen()
+#21 C:\xampp\htdocs\soloxwp\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#22 {main}
+  thrown in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php on line 33
+
+2023-11-20T10:46:19+00:00 CRITICAL Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php:33
+Stack trace:
+#0 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php(24): UxBuilder\Options\Options->create('width', Array)
+#1 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(106): UxBuilder\Options\Options->__construct(Array)
+#2 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(82): UxBuilder\Post\PostArray->get_options('tieude_countern...', Array)
+#3 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(31): UxBuilder\Post\PostArray->UxBuilder\Post\{closure}(Array, 0)
+#4 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#5 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#6 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#7 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#8 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#9 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(83): ux_builder_content_array_walk(Array, Object(Closure))
+#10 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(17): UxBuilder\Post\PostArray->create_array()
+#11 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\Post.php(70): UxBuilder\Post\PostArray->__construct(Object(WP_Post))
+#12 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(129): UxBuilder\Post\Post->to_array()
+#13 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(47): ux_builder_editor_data()
+#14 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(26): ux_builder_enqueue_editor_assets()
+#15 C:\xampp\htdocs\soloxwp\wp-includes\class-wp-hook.php(324): UxBuilder\Application->{closure}(Object(WP_Screen))
+#16 C:\xampp\htdocs\soloxwp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#17 C:\xampp\htdocs\soloxwp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\xampp\htdocs\soloxwp\wp-admin\includes\class-wp-screen.php(424): do_action('current_screen', Object(WP_Screen))
+#19 C:\xampp\htdocs\soloxwp\wp-admin\includes\screen.php(243): WP_Screen->set_current_screen()
+#20 C:\xampp\htdocs\soloxwp\wp-admin\admin.php(212): set_current_screen()
+#21 C:\xampp\htdocs\soloxwp\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#22 {main}
+  thrown in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php on line 33
+
+2023-11-20T10:47:43+00:00 CRITICAL Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php:33
+Stack trace:
+#0 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php(24): UxBuilder\Options\Options->create('width', Array)
+#1 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(106): UxBuilder\Options\Options->__construct(Array)
+#2 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(82): UxBuilder\Post\PostArray->get_options('tieude_countern...', Array)
+#3 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(31): UxBuilder\Post\PostArray->UxBuilder\Post\{closure}(Array, 0)
+#4 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#5 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#6 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#7 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#8 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\helpers\transformers.php(33): ux_builder_content_array_walk(Array, Object(Closure))
+#9 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(83): ux_builder_content_array_walk(Array, Object(Closure))
+#10 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\PostArray.php(17): UxBuilder\Post\PostArray->create_array()
+#11 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Post\Post.php(70): UxBuilder\Post\PostArray->__construct(Object(WP_Post))
+#12 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(129): UxBuilder\Post\Post->to_array()
+#13 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(47): ux_builder_editor_data()
+#14 C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(26): ux_builder_enqueue_editor_assets()
+#15 C:\xampp\htdocs\soloxwp\wp-includes\class-wp-hook.php(324): UxBuilder\Application->{closure}(Object(WP_Screen))
+#16 C:\xampp\htdocs\soloxwp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#17 C:\xampp\htdocs\soloxwp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\xampp\htdocs\soloxwp\wp-admin\includes\class-wp-screen.php(424): do_action('current_screen', Object(WP_Screen))
+#19 C:\xampp\htdocs\soloxwp\wp-admin\includes\screen.php(243): WP_Screen->set_current_screen()
+#20 C:\xampp\htdocs\soloxwp\wp-admin\admin.php(212): set_current_screen()
+#21 C:\xampp\htdocs\soloxwp\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#22 {main}
+  thrown in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome\inc\builder\core\server\src\Options\Options.php on line 33
+

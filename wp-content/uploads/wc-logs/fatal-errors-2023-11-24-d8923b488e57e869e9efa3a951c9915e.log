@@ -1,0 +1,12 @@
+2023-11-24T13:56:19+00:00 CRITICAL Out of memory (allocated 90177536) (tried to allocate 32768 bytes) in C:\xampp\htdocs\soloxwp\wp-content\plugins\woocommerce\includes\rest-api\Controllers\Version2\class-wc-rest-order-refunds-v2-controller.php on line 355
+
+2023-11-24T15:40:18+00:00 CRITICAL syntax error, unexpected identifier "https", expecting "," or ";" in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome-child\functions.php on line 448
+
+2023-11-24T16:01:32+00:00 CRITICAL syntax error, unexpected identifier "https", expecting "," or ";" in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome-child\functions.php on line 462
+
+2023-11-24T16:01:32+00:00 CRITICAL syntax error, unexpected identifier "https", expecting "," or ";" in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome-child\functions.php on line 462
+
+2023-11-24T16:22:03+00:00 CRITICAL syntax error, unexpected token "<" in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome-child\functions.php on line 461
+
+2023-11-24T16:22:03+00:00 CRITICAL syntax error, unexpected token "<" in C:\xampp\htdocs\soloxwp\wp-content\themes\flatsome-child\functions.php on line 461
+
